@@ -38,4 +38,12 @@ html, body{
       height: 100px!important; /* !important => Overrides the predefined height property (e.g., 100%) */
       width: 100px!important; /* !important => Overrides the predefined width property (e.g., 100%) */
   }
-  
+
+
+/*
+Style the element with id="camera-view", "camera-device", "photo-display"
+*/
+#camera-view, #camera-device, #photo-display{
+    transform: scaleX(-1);
+}
+
